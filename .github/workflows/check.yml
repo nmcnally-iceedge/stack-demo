@@ -1,8 +1,5 @@
 name: check
-on:
-  pull_request:
-    branches:
-      - develop
+on: pull_request
 jobs:
   verify:
     runs-on: ubuntu-latest
